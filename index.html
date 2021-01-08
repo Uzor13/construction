@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <title>Dummy Construction Site</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <!-- Header -->
+      <nav class="container">
+        <div class="logo">
+          <a href="index.html"><img src="img/unnamed.jpg" alt="logo" /></a>
+        </div>
+        <div class="navbar">
+          <div class="icon-bar" onclick="Show()">
+            <i></i>
+            <i></i>
+            <i></i>
+          </div>
+          <ul id="nav-lists">
+            <li class="close"><span onclick="Hide()">×</span></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <main>
+        <section class="big-image">
+          <div class="overlay">
+            <div class="overlay-items">
+              <h1>Garry White Construction</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button class="btn">Get a Quote</button>
+            </div>
+          </div>
+        </section>
+        <div class="wrapper">
+          <section class="about" id="about">
+            <h1>About Us</h1>
+            <div class="about-us__flex">
+              <div>
+                <img src="img/flame-933.png" width="300" class="img-fluid" alt="">
+              </div>
+              <div class="about-us__flex__text">
+                <h2>Garry White Construction</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, nam. Similique deleniti animi pariatur minima maxime ducimus iste dolorem? Qui quidem explicabo rem consequuntur voluptas porro quos voluptates ipsum veritatis?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam consectetur, nemo veniam iure facilis modi deserunt omnis asperiores qui perspiciatis. Voluptate maxime voluptatum, accusamus voluptatem optio commodi id itaque! Id.</p>
+                <a href="#">Find out more <i class="fas fa-arrow-right"> </i></a>
+              </div>
+            </div>
+          </section>
+          <section class="features">
+            <div class="features-flex">
+              <div>
+                <i class="fas fa-hammer fa-4x"></i>
+              </div>
+              <div>
+                <h2>Building</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea
+                  iste dolor voluptas soluta quaerat blanditiis sint tenetur
+                  aliquid eos.
+                </p>
+              </div>
+            </div>
+            <div class="features-flex">
+              <div>
+                <i class="fas fa-hard-hat fa-4x"></i>
+              </div>
+              <div>
+                <h2>Scaffolding</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea
+                  iste dolor voluptas soluta quaerat blanditiis sint tenetur
+                  aliquid eos.
+                </p>
+              </div>
+            </div>
+            <div class="features-flex">
+              <div>
+                <i class="fas fa-paint-roller fa-4x"></i>
+              </div>
+              <div>
+                <h2>Painting</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea
+                  iste dolor voluptas soluta quaerat blanditiis sint tenetur
+                  aliquid eos.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="services" id="services">
+            <h1>Our Services</h1>
+            <div class="services-section">
+              <div>
+                <img
+                  width="400"
+                  height="400"
+                  class="img-fluid"
+                  src="img/samuel-regan-asante-g9A2llpDObU-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="services-section__text">
+                <h3>Drilling</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Deserunt commodi consequatur ea nulla error.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="services-section">
+              <div class="services-section__text services-text">
+                <h3>Construction</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Deserunt commodi consequatur ea nulla error.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+              <div>
+                <img
+                  width="400"
+                  height="400"
+                  class="img-fluid"
+                  src="img/jamar-penny-ZgmGq_eFmUs-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="services-section">
+              <div>
+                <img
+                  width="400"
+                  height="400"
+                  class="img-fluid"
+                  src="img/jean-francois-henri-QBLq7dY0uo8-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="services-section__text">
+                <h3>Clearing</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Deserunt commodi consequatur ea nulla error.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <a class="services-link">View More Services</a>
+          </section>
+          <section class="projects" id="projects">
+            <div class="projects-filters">
+              <div>
+                <h1>Latest Projects</h1>
+              </div>
+              <div class="projects-filters__list">
+                <ul>
+                  <li><a href="#" class="active">All</a></li>
+                  <li><a href="#">Building</a></li>
+                  <li><a href="">Construction</a></li>
+                  <li><a href="">Drilling</a></li>
+                </ul>
+                <a href="#">View all projects</a>
+              </div>
+            </div>
+            <div class="image-container">
+              <div class="content">
+                <div class="content-overlay"></div>
+                <img
+                  class="content-image"
+                  src="img/digital-marketing-agency-ntwrk-g39p1kDjvSY-unsplash.jpg"
+                />
+                <div class="content-details fadeIn-top">
+                  <h3>This is a title</h3>
+                  <p>This is a short description</p>
+                </div>
+              </div>
+              <div class="content">
+                <div class="content-overlay"></div>
+                <img
+                  class="content-image"
+                  src="img/daniel-dinuzzo-qCjolcMFaLI-unsplash.jpg"
+                />
+                <div class="content-details fadeIn-top">
+                  <h3>This is a title</h3>
+                  <p>This is a short description</p>
+                </div>
+              </div>
+              <div class="content">
+                <div class="content-overlay"></div>
+                <img
+                  class="content-image"
+                  src="img/naomi-hebert-MP0bgaS_d1c-unsplash.jpg"
+                />
+                <div class="content-details fadeIn-top">
+                  <h3>This is a title</h3>
+                  <p>This is a short description</p>
+                </div>
+              </div>
+              <div class="content">
+                <div class="content-overlay"></div>
+                <img
+                  class="content-image"
+                  src="img/stephan-bechert-yFV39g6AZ5o-unsplash.jpg"
+                />
+                <div class="content-details fadeIn-top">
+                  <h3>This is a title</h3>
+                  <p>This is a short description</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="call-to-action">
+            <div class="call-to-action__overlay">
+              <div class="call-to-action__overlay-items">
+                <h1>We are always ready to work with you</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="btn">Get a Quote</button>
+              </div>
+            </div>
+          </section>
+          <section class="achievements">
+            <h1>Our Achievements</h1>
+            <div class="achievements-grid">
+              <div class="achievements-flex">
+                <div>
+                   <div class="achievement">
+                  <h2>102</h2>
+                  <p>Completed Projects</p>
+                </div>
+                <div class="achievement">
+                  <h2>250</h2>
+                  <p>Satisfied Clients</p>
+                </div>
+                </div>
+               
+                <div>
+                  <div class="achievement">
+                    <h2>32</h2>
+                    <p>Completed Construction</p>
+                  </div>
+                  <div class="achievement">
+                    <h2>77</h2>
+                    <p>Qualified Engineers</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="img/undraw_feedback_h2ft.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+          </section>
+          <section class="testimonial">
+            <h1>Testimonials</h1>
+            <div class="testimonials">
+              <div class="testimonial-card">
+                <div class="testimonial-card__img">
+                  <img src="img/unnamed.jpg" alt="" />
+                </div>
+                <div class="testimonial-card__name">
+                  <h3>My Name</h3>
+                </div>
+                <div class="testimonial-card__text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fuga, totam illum enim iure saepe suscipit nemo voluptates,
+                    numquam et facere aspernatur illo deserunt, ipsam dolores
+                    earum error repellat aliquam ex.
+                  </p>
+                </div>
+              </div>
+              <div class="testimonial-card">
+                <div class="testimonial-card__img">
+                  <img src="img/unnamed.jpg" alt="" />
+                </div>
+                <div class="testimonial-card__name">
+                  <h3>My Name</h3>
+                </div>
+                <div class="testimonial-card__text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fuga, totam illum enim iure saepe suscipit nemo voluptates,
+                    numquam et facere aspernatur illo deserunt, ipsam dolores
+                    earum error repellat aliquam ex.
+                  </p>
+                </div>
+              </div>
+              <div class="testimonial-card">
+                <div class="testimonial-card__img">
+                  <img src="img/unnamed.jpg" alt="" />
+                </div>
+                <div class="testimonial-card__name">
+                  <h3>My Name</h3>
+                </div>
+                <div class="testimonial-card__text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fuga, totam illum enim iure saepe suscipit nemo voluptates,
+                    numquam et facere aspernatur illo deserunt, ipsam dolores
+                    earum error repellat aliquam ex.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="contact" id="contact">
+            <h1>Contact</h1>
+            <div class="contact-field">
+              <div class="contact-field__text">
+                <div>
+                  <i class="fas fa-phone-alt"></i>
+                  <span> 555-555-5555</span>
+                </div>
+                <div>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span> 1234, 3rd avenue, opp something, a place</span>
+                </div>
+                <div>
+                  <i class="fas fa-envelope-open"></i>
+                  <span> garrywhite@gmail.com</span>
+                </div>
+              </div>
+              <div class="contact-form">
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email Address" />
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Message"
+                ></textarea>
+                <button class="btn">Send Message</button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="first-section">
+        <div>
+          <img class="footer-img" src="img/unnamed.jpg" alt="" />
+          <h4>Garry White Construction</h4>
+          <p>Best in the world for all things construction</p>
+        </div>
+        <div class="footer-links">
+          <h2>Company</h2>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h2>Policies</h2>
+          <ul>
+            <li><a href="">Terms and conditions</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Support</a></li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <h2>Our Newsletter</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="email">
+            <input
+              type="email"
+              class="newsletter-email"
+              placeholder="Email Address"
+            />
+            <button class="btn btn-news">Submit</button>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
